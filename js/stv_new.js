@@ -1,0 +1,1 @@
+function add_cart_detail(t,o){var n=t,a=o;location.href="/index.php?mod=cart&ajax&task=add&pid="+n+"&ion="+a}$(document).ready((function(){$((function(){$(window).scroll((function(){$(this).scrollTop()>=800?$("#bttop").fadeIn():$("#bttop").fadeOut()})),$("#bttop").click((function(){event.preventDefault(),$("body,html").animate({scrollTop:0},1600)}))}))}));
