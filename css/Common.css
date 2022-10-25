@@ -2571,3 +2571,43 @@
     bottom: 86px !important;
     right: 5px !important;
   }
+  .product .group .item .hide-card {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    position: absolute;
+    width: 100%;
+    bottom: -2rem;
+    left: 5px;
+}
+  .product .group .item .hide-card .buy-now {
+    text-transform: uppercase;
+    background: #000;
+    color: white;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+.product .group .item .hide-card .add-to-card {
+  text-transform: uppercase;
+  background: #000;
+  color: white;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.product .group .item:hover .hide-card {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  bottom: 20px;
+  transform: translateY(0px);
+  transform: translateY(100%);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+
+}
